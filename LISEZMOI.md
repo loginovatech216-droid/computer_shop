@@ -58,3 +58,6 @@ fiche produit, panier, checkout, détail de commande client,
 - Les filtres de prix du catalogue restent basés sur le prix normal (`price`).
 - Les pièces jointes sont stockées sur le disque privé `local` (votre `.env` a `FILESYSTEM_DISK=public`) et téléchargeables uniquement depuis le dashboard.
 - Anti-spam : 5 messages / 10 minutes par visiteur (`throttle:5,10` dans `routes/web.php`).
+
+
+## le fork du projet et je passe au déployement. 
