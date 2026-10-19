@@ -18,6 +18,8 @@ return Application::configure(basePath: dirname(__DIR__))
 
     ->withMiddleware(function (Middleware $middleware) {
 
+     $middleware->trustProxies(at: '*');
+
         // Middleware Inertia
         $middleware->web(append: [
             HandleInertiaRequests::class,
@@ -35,3 +37,4 @@ return Application::configure(basePath: dirname(__DIR__))
         //
     })
     ->create();
+     
